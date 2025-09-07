@@ -1,12 +1,44 @@
-# React + Vite
+# Date Counter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, dark-themed date calculator built with React as part of Jonas Schmedtmann's Ultimate React Course challenge. Calculate future and past dates with an intuitive, modern interface.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Dynamic Date Calculation**: Add/subtract days from current date (Sept 7, 2025)
+- **Customizable Steps**: Use slider to set increment size (0-10 days)
+- **Smart Display**: Shows contextual messages for past/present/future dates
+- **Modern Dark Theme**: Pure dark design with subtle blue accents
+- **Responsive Design**: Works seamlessly on desktop and mobile
+- **Reset Functionality**: One-click reset to defaults
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React 18** - Functional components with useState hook
+- **Pure CSS** - Custom styling without external frameworks
+- **JavaScript ES6+** - Modern syntax and Date object manipulation
+
+## 🚀 Quick Start
+
+```bash
+git clone <https://github.com/Scylox56/dateCounterV2>
+cd dateCounterV2
+npm i
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view the app.
+
+## 🎓 What I Learned
+
+- React state management with hooks and functional updates
+- Event handling for user interactions
+- Conditional rendering based on state values
+- Working with JavaScript Date objects
+
+## 📚 Course Credit
+
+Built as part of [The Ultimate React Course](https://www.udemy.com/course/the-ultimate-react-course/) by [Jonas Schmedtmann](https://github.com/jonasschmedtmann) - an excellent resource for learning modern React development.
+
+---
+
+⭐ Star this repo if you liked it!
