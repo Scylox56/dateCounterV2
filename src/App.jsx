@@ -18,7 +18,7 @@ function Counter() {
     setStep(1)
   }
 
-  const date = new Date('september 7  2025')
+  const date = new Date('september 7 2025')
   date.setDate(date.getDate() + count)
 
   return (
